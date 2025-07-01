@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WareHouse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/modal.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header class="banner-topo">
+        <h1>WareHouse</h1>
+        <nav>
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="inicio">
+        <section class="hero">
+            <h1>Bem-vindo ao WareHouse</h1>
+            <p>Controle seu estoque e fluxo de caixa de forma simples e eficiente.</p>
+            <a href="cadastro.html" id="btnComecar" class="btn-primary">Começar Agora</a>
+            <div id="modalEscolha" class="modal hidden">
+                <div class="modal-content">
+                    <h2>O que você deseja fazer?</h2>
+                    <button class="modal-btn" id="btnLogin">Fazer Login</button>
+                    <button class="modal-btn" id="btnCadastro">Cadastrar</button>
+
+                    <form id="formLogin" class="hidden">
+                        <input type="email" id="emailLogin" placeholder="E-mail" required />
+                        <input type="password" id="senhaLogin" placeholder="Senha" required />
+                        <button type="submit">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="beneficios">
+            <div class="card">
+                <h3>Controle de Estoque Fácil</h3>
+                <p>Monitore entradas e saídas com simplicidade.</p>
+            </div>
+            <div class="card">
+                <h3>Fluxo de Caixa Organizado</h3>
+                <p>Tenha uma visão clara das finanças da sua empresa.</p>
+            </div>
+            <div class="card">
+                <h3>Relatórios Inteligentes</h3>
+                <p>Dados que ajudam a tomar decisões mais estratégicas.</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

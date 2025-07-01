@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cadastro | WareHouse</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cadastro.css" />
+</head>
+
+<body>
+  <header class="banner-topo">
+    <h1>WareHouse</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="#">Produtos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-wrapper">
+      <h2>Cadastro</h2>
+      <form action="#" method="POST">
+        <label for="nome">Nome completo *</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+
+        <label for="email">E-mail *</label>
+        <input type="email" id="email" name="email" placeholder="exemplo@dominio.com" required />
+
+        <label for="telefone">Telefone / WhatsApp</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(00) 90000-0000" />
+
+        <label for="empresa">Nome da empresa</label>
+        <input type="text" id="empresa" name="empresa" placeholder="Nome da sua empresa" />
+
+        <label for="mensagem">Mensagem adicional</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Fale brevemente sobre o que você precisa..."></textarea>
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="aceite" name="aceite" required />
+          <label for="aceite">Li e aceito a política de privacidade *</label>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
